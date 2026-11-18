@@ -1,0 +1,13 @@
+# Release archives are attached to GitHub Releases, not committed
+*.zip
+
+# Diagnostic / review output: contains Blizzard's original game data. Never commit.
+de_diag/
+dialogue_check.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary files written by the patcher
+*.ja_tmp
